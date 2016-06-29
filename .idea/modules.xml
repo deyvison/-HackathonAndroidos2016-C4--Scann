@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HackathonAndroidos2016-C4-Scann.iml" filepath="$PROJECT_DIR$/HackathonAndroidos2016-C4-Scann.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SSPLib/SSPLib.iml" filepath="$PROJECT_DIR$/SSPLib/SSPLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
