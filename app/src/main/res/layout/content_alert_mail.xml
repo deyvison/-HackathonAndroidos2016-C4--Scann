@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/default_margin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mas antes, nos informe o(s) endereço(s) de e-mail a quem deseja enviar o arquivo. Separe os e-mails utilizando ponto-e-vírgula.\n\nEx: email1@server.com; email2@server.com; email3@server.com; …"
+        android:textColor="@color/md_secondary_text_icons"
+        android:textSize="@dimen/fontsize_subhead" />
+
+    <android.support.design.widget.TextInputEditText
+        android:id="@+id/insert_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/med_margin"
+        android:hint="Insira o(s) e-mail(s) aqui"
+        android:inputType="textWebEmailAddress"
+        android:textColor="@color/md_text"
+        android:textSize="@dimen/fontsize_title" />
+
+</LinearLayout>

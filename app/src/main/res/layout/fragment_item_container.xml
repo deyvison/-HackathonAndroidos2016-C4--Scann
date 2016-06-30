@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/default_margin"
+    android:gravity="center"
+    android:background="@color/md_grey_500_25"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/description_image"
+        android:padding="4dp"
+        android:id="@+id/image_item"
+        android:src="@drawable/ic_printer" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:id="@+id/text_item"
+        android:text="Imprimir"
+        android:textColor="@color/md_text"
+        android:textSize="@dimen/fontsize_title" />
+
+</LinearLayout>

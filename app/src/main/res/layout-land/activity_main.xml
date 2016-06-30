@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.ufpb.c4.ayty.hackathonandroidos2016_c4_scann.activity.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_main"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/default_margin">
+
+            <LinearLayout
+                android:id="@+id/container1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/md_grey_500_25"
+                android:padding="@dimen/default_margin"
+                android:orientation="vertical"
+                tools:ignore="NestedWeights">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/md_grey_700"
+                    android:textSize="@dimen/fontsize_subhead"
+                    android:text="Selecione uma função"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_margin="@dimen/default_margin"
+                android:contentDescription="@string/description_image"
+                android:src="@drawable/ic_add" />
+
+            <LinearLayout
+                android:id="@+id/container2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/md_grey_500_25"
+                android:padding="@dimen/default_margin"
+                android:orientation="vertical"
+                tools:ignore="NestedWeights">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/md_grey_700"
+                    android:textSize="@dimen/fontsize_subhead"
+                    android:text="Selecione uma função"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="32dp"
+                android:layout_height="32dp"
+                android:layout_margin="@dimen/default_margin"
+                android:contentDescription="@string/description_image"
+                android:src="@drawable/ic_add" />
+
+            <LinearLayout
+                android:id="@+id/container3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@color/md_grey_500_25"
+                android:padding="@dimen/default_margin"
+                android:orientation="vertical"
+                tools:ignore="NestedWeights">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/md_grey_700"
+                    android:textSize="@dimen/fontsize_subhead"
+                    android:text="Selecione uma função"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|end"
+            android:paddingTop="@dimen/min_margin"
+            android:paddingBottom="@dimen/min_margin"
+            android:layout_marginLeft="@dimen/default_margin"
+            android:layout_marginRight="@dimen/default_margin"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button_delete_all"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:enabled="false"
+                android:padding="@dimen/default_margin"
+                android:text="Limpar tudo"
+                android:textAllCaps="true"
+                android:textSize="@dimen/fontsize_title" />
+
+            <Button
+                android:id="@+id/button_delete"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:enabled="false"
+                android:padding="@dimen/default_margin"
+                android:text="Limpar"
+                android:textAllCaps="true"
+                android:textSize="@dimen/fontsize_title" />
+
+            <Button
+                android:id="@+id/button_start"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:enabled="false"
+                android:padding="@dimen/default_margin"
+                android:text="Iniciar"
+                android:textAllCaps="true"
+                android:textSize="@dimen/fontsize_title" />
+
+        </LinearLayout>
+
+        <br.com.ufpb.c4.ayty.hackathonandroidos2016_c4_scann.util.CenturyGotic
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/md_grey_100"
+            android:padding="@dimen/default_margin"
+            android:text="@string/text_funcions"
+            android:textSize="@dimen/fontsize_headline" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/btn_scan"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/description_image"
+                    android:padding="4dp"
+                    android:src="@drawable/ic_scanner" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:text="Digitalizar"
+                    android:textColor="@color/md_text"
+                    android:textSize="@dimen/fontsize_title" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/md_divider" />
+
+            <LinearLayout
+                android:id="@+id/btn_print"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/description_image"
+                    android:padding="4dp"
+                    android:src="@drawable/ic_printer" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:text="Imprimir"
+                    android:textColor="@color/md_text"
+                    android:textSize="@dimen/fontsize_title" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/md_divider" />
+
+            <LinearLayout
+                android:id="@+id/btn_mail"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackground"
+                android:clickable="true"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/description_image"
+                    android:padding="4dp"
+                    android:src="@drawable/ic_mail" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:gravity="center"
+                    android:text="E-mail"
+                    android:textColor="@color/md_text"
+                    android:textSize="@dimen/fontsize_title" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

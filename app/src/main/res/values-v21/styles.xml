@@ -20,8 +20,8 @@
         <item name="android:textColorTertiaryInverse">@color/md_disabled_hint_text_white</item>
         <item name="android:cacheColorHint">@color/md_divider</item>
         <item name="android:windowBackground">@color/md_white_1000</item>
+        <item name="android:navigationBarColor">@color/md_teal_500</item>
         <item name="android:windowActionBarOverlay">true</item>
-        <item name="android:fitsSystemWindows">true</item>
     </style>
 
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
