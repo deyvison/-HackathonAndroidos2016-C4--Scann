@@ -56,14 +56,14 @@ public class ScanActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 mAuthTask = new ScanAsyncTask(getApplicationContext(), mScanObserver);
-                mAuthTask.execute((Void) null);
+                mAuthTask.execute();
             }
         });
 
         scan.setVisibility(View.VISIBLE);
         error.setVisibility(View.GONE);
         mAuthTask = new ScanAsyncTask(getApplicationContext(), mScanObserver);
-        mAuthTask.execute((Void) null);
+        mAuthTask.execute();
     }
 
     private void findViewById(){
@@ -102,7 +102,7 @@ public class ScanActivity extends AppCompatActivity {
                 return null;
             }
             try{
-
+                // Obtém os e-mails
                 String body = null;
                 String from = application.getUserMail();
                 final String subj;

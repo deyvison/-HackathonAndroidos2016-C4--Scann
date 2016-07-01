@@ -103,7 +103,6 @@ public class MainActivity extends AppCompatActivity {
                     buttonDeleteAll.setEnabled(true);
                     buttonStart.setEnabled(true);
                 }
-                Toast.makeText(getApplicationContext(), "Clicou", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -123,7 +122,6 @@ public class MainActivity extends AppCompatActivity {
                     buttonDeleteAll.setEnabled(true);
                     buttonStart.setEnabled(true);
                 }
-                Toast.makeText(getApplicationContext(), "Clicou", Toast.LENGTH_SHORT).show();
             }
         });
 
