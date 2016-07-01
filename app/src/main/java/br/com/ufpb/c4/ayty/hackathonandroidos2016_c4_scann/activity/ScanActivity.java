@@ -12,6 +12,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import com.sec.android.ngen.common.lib.ssp.CapabilitiesExceededException;
 import com.sec.android.ngen.common.lib.ssp.Result;
@@ -59,7 +60,7 @@ public class ScanActivity extends AppCompatActivity {
                 mAuthTask.execute();
             }
         });
-
+        //Toast.makeText(getApplicationContext(), "Entrou Scan Activity", Toast.LENGTH_SHORT).show();
         scan.setVisibility(View.VISIBLE);
         error.setVisibility(View.GONE);
         mAuthTask = new ScanAsyncTask(getApplicationContext(), mScanObserver);
