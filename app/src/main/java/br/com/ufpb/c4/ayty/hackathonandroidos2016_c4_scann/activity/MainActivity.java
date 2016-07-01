@@ -1,19 +1,33 @@
 package br.com.ufpb.c4.ayty.hackathonandroidos2016_c4_scann.activity;
 
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.design.widget.TextInputEditText;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
+import android.widget.Toast;
+
+import com.sec.android.ngen.common.lib.ssp.CapabilitiesExceededException;
+import com.sec.android.ngen.common.lib.ssp.Result;
+import com.sec.android.ngen.common.lib.ssp.scanner.ScanAttributes;
+import com.sec.android.ngen.common.lib.ssp.scanner.ScanAttributesCaps;
+import com.sec.android.ngen.common.lib.ssp.scanner.ScanletAttributes;
+import com.sec.android.ngen.common.lib.ssp.scanner.ScannerService;
+
+import java.lang.ref.WeakReference;
 
 import br.com.ufpb.c4.ayty.hackathonandroidos2016_c4_scann.R;
 import br.com.ufpb.c4.ayty.hackathonandroidos2016_c4_scann.ScannApplication;
@@ -89,6 +103,7 @@ public class MainActivity extends AppCompatActivity {
                     buttonDeleteAll.setEnabled(true);
                     buttonStart.setEnabled(true);
                 }
+                Toast.makeText(getApplicationContext(), "Clicou", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -108,6 +123,7 @@ public class MainActivity extends AppCompatActivity {
                     buttonDeleteAll.setEnabled(true);
                     buttonStart.setEnabled(true);
                 }
+                Toast.makeText(getApplicationContext(), "Clicou", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -151,7 +167,9 @@ public class MainActivity extends AppCompatActivity {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
                         TextInputEditText text = (TextInputEditText) view.findViewById(R.id.insert_mail);
+                        TextInputEditText text1 = (TextInputEditText) view.findViewById(R.id.insert_your_mail);
                         application.setEmails(text.getText().toString());
+                        application.setUserMail(text1.getText().toString());
                         createDialogScan();
                     }
                 })
@@ -213,4 +231,6 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+
 }

@@ -14,6 +14,7 @@ public class ScannApplication extends Application {
     private List<String> funcoes;
     private String emails;
     private Bitmap bitmap;
+    private String userMail;
 
 
     @Override
@@ -55,6 +56,14 @@ public class ScannApplication extends Application {
 
     public void setEmails(String emails) {
         this.emails = emails;
+    }
+
+    public String getUserMail() {
+        return userMail;
+    }
+
+    public void setUserMail(String userMail) {
+        this.userMail = userMail;
     }
 
     public Bitmap getBitmap() {
