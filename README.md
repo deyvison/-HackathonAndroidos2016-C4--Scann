@@ -7,4 +7,6 @@ O .apk do aplicativo pode ser encontrado nesse link bit.ly... ou na pasta raíz 
 
 
 Link do vídeo da apresentação do aplicativo: https://youtu.be/xLfbo7HRMtg
+
+
 Link do apk do aplicativo para download: https://drive.google.com/file/d/0B5eE5YBOP-2BUzRZLWxqUEl6OVk/view?usp=sharing
