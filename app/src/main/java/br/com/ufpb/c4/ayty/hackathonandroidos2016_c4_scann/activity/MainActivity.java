@@ -65,6 +65,11 @@ public class MainActivity extends AppCompatActivity {
                 fragment.setArguments(bundle);
                 container1.removeAllViews();
                 getSupportFragmentManager().beginTransaction().replace(R.id.container1, fragment).addToBackStack("Scan").commit();
+                if(application.getFuncoes().size() > 0){
+                    buttonDelete.setEnabled(true);
+                    buttonDeleteAll.setEnabled(true);
+                    buttonStart.setEnabled(true);
+                }
             }
         });
 
@@ -79,6 +84,11 @@ public class MainActivity extends AppCompatActivity {
                 fragment.setArguments(bundle);
                 container1.removeAllViews();
                 getSupportFragmentManager().beginTransaction().replace(R.id.container2, fragment).addToBackStack("Printer").commit();
+                if(application.getFuncoes().size() > 0){
+                    buttonDelete.setEnabled(true);
+                    buttonDeleteAll.setEnabled(true);
+                    buttonStart.setEnabled(true);
+                }
             }
         });
 
@@ -93,6 +103,11 @@ public class MainActivity extends AppCompatActivity {
                 fragment.setArguments(bundle);
                 container1.removeAllViews();
                 getSupportFragmentManager().beginTransaction().replace(R.id.container3, fragment).addToBackStack("Mail").commit();
+                if(application.getFuncoes().size() > 0){
+                    buttonDelete.setEnabled(true);
+                    buttonDeleteAll.setEnabled(true);
+                    buttonStart.setEnabled(true);
+                }
             }
         });
 

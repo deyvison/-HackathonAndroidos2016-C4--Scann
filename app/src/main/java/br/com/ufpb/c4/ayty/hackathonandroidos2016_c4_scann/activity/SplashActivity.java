@@ -1,5 +1,6 @@
 package br.com.ufpb.c4.ayty.hackathonandroidos2016_c4_scann.activity;
 
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -12,6 +13,8 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+
+        new SplashAsyncTask().execute((Void) null);
     }
 
     private class SplashAsyncTask extends AsyncTask<Void, Void, Boolean> {
@@ -31,7 +34,9 @@ public class SplashActivity extends AppCompatActivity {
 
         @Override
         protected void onPostExecute(Boolean aBoolean) {
-
+            Intent intent = new Intent(SplashActivity.this, MainActivity.class);
+            startActivity(intent);
+            finish();
         }
     }
 }

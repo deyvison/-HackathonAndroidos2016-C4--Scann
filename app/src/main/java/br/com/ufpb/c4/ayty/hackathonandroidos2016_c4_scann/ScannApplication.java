@@ -41,6 +41,10 @@ public class ScannApplication extends Application {
         }
     }
 
+    public List<String> getFuncoes() {
+        return funcoes;
+    }
+
     public boolean contains(String function){
         return this.funcoes.contains(function);
     }
