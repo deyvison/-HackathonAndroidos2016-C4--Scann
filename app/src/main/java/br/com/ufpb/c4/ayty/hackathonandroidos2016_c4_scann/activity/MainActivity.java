@@ -1,6 +1,7 @@
 package br.com.ufpb.c4.ayty.hackathonandroidos2016_c4_scann.activity;
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.TextInputEditText;
 import android.support.v4.app.Fragment;
@@ -34,8 +35,6 @@ public class MainActivity extends AppCompatActivity {
 
     private ScannApplication application;
 
-    private boolean[] status = {false, false, false};
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,8 +48,6 @@ public class MainActivity extends AppCompatActivity {
         findViewById();
 
         clickButtonFuncions();
-
-
 
     }
 
@@ -140,6 +137,25 @@ public class MainActivity extends AppCompatActivity {
                     public void onClick(DialogInterface dialogInterface, int i) {
                         TextInputEditText text = (TextInputEditText) view.findViewById(R.id.insert_mail);
                         application.setEmails(text.getText().toString());
+                        createDialogScan();
+                    }
+                })
+                .setNegativeButton("Cancelar", null)
+                .create().show();
+    }
+
+    private void createDialogScan(){
+        final View view = LayoutInflater.from(this).inflate(R.layout.content_alert_scan, null, false);
+
+        new AlertDialog.Builder(this)
+                .setTitle("Atenção!")
+                .setView(view)
+                .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        Intent intent = new Intent(MainActivity.this, ScanActivity.class);
+                        startActivity(intent);
+                        finish();
                     }
                 })
                 .setNegativeButton("Cancelar", null)
@@ -172,7 +188,12 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         if(id == R.id.action_about){
-
+            View view = LayoutInflater.from(this).inflate(R.layout.content_alert_sobre, null, false);
+            new AlertDialog.Builder(this)
+                    .setTitle("Sobre")
+                    .setView(view)
+                    .setPositiveButton("OK", null)
+                    .create().show();
         }
 
         return super.onOptionsItemSelected(item);

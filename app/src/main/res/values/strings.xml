@@ -4,4 +4,5 @@
     <string name="description_image">Image description</string>
     <string name="menu_about">Sobre</string>
     <string name="text_funcions">Funções</string>
+    <string name="app_version">Versão 1.0.0</string>
 </resources>

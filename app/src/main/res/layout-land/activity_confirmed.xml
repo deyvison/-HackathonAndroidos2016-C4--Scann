@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.ufpb.c4.ayty.hackathonandroidos2016_c4_scann.activity.ConfirmedActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_confirmed"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/content"
+        android:padding="@dimen/default_margin"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:contentDescription="@string/description_image"
+            android:id="@+id/imageScan"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/default_margin"
+                android:text="E-mails a serem enviados"
+                android:textSize="@dimen/fontsize_title"
+                android:textColor="@color/md_text"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:scrollbars="none|vertical"
+                android:id="@+id/recyclerView"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Digitalizar novamente"
+                android:textAllCaps="true"
+                android:layout_marginTop="@dimen/default_margin"
+                android:textColor="?attr/colorPrimary"
+                android:background="?attr/selectableItemBackground"
+                android:padding="8dp"
+                android:id="@+id/digitalizarnovamente"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_margin"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Cancelar"
+                    android:textAllCaps="true"
+                    android:textColor="@color/md_text"
+                    android:padding="8dp"
+                    android:id="@+id/cancel"/>
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Confirmar e enviar"
+                    android:textAllCaps="true"
+                    android:textColor="@color/md_text"
+                    android:padding="8dp"
+                    android:id="@+id/enviar"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/send_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/progressBar_send"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:indeterminate="true" />
+
+        <br.com.ufpb.c4.ayty.hackathonandroidos2016_c4_scann.util.CenturyGotic
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/default_margin"
+            android:gravity="center"
+            android:text="Aguarde..."
+            android:textColor="@color/md_text"
+            android:textSize="@dimen/fontsize_title" />
+
+        <br.com.ufpb.c4.ayty.hackathonandroidos2016_c4_scann.util.CenturyGotic
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/min_margin"
+            android:gravity="center"
+            android:text="Enviando e-mails"
+            android:textColor="@color/md_secondary_text_icons"
+            android:textSize="@dimen/fontsize_subhead" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

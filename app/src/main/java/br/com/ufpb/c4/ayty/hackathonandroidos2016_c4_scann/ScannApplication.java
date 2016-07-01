@@ -1,6 +1,7 @@
 package br.com.ufpb.c4.ayty.hackathonandroidos2016_c4_scann;
 
 import android.app.Application;
+import android.graphics.Bitmap;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -12,6 +13,8 @@ public class ScannApplication extends Application {
 
     private List<String> funcoes;
     private String emails;
+    private Bitmap bitmap;
+
 
     @Override
     public void onCreate() {
@@ -48,5 +51,13 @@ public class ScannApplication extends Application {
 
     public void setEmails(String emails) {
         this.emails = emails;
+    }
+
+    public Bitmap getBitmap() {
+        return bitmap;
+    }
+
+    public void setBitmap(Bitmap bitmap) {
+        this.bitmap = bitmap;
     }
 }

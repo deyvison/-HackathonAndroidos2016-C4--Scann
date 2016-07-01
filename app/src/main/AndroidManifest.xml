@@ -28,7 +28,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".activity.MainActivity"></activity>
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.ScanActivity" />
+        <activity android:name=".activity.ConfirmedActivity"></activity>
     </application>
 
 </manifest>
