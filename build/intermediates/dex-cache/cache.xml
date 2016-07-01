@@ -2,46 +2,130 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Deyvison\AndroidStudioProjects\HackathonAndroidos2016-C4-Scann\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\classes.jar"
+        jar="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\exploded-aar\-HackathonAndroidos2016-C4--Scann\SSPLib\unspecified\jars\libs\jackson-core-2.1.3.jar"
         jumboMode="false"
-        revision="23.0.3"
-        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
-        <dex dex="C:\Users\Deyvison\AndroidStudioProjects\HackathonAndroidos2016-C4-Scann\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.1_7adc865df4df126a94d16adcd219a906fe813a15.jar" />
+        revision="23.0.1"
+        sha1="0bf83827b4ce43d607d5c6b4eee88aa59a1ce8ce">
+        <dex dex="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\pre-dexed\debug\jackson-core-2.1.3_e615443dc2a833386313c2e7ff12bc2361fa8a7c.jar" />
     </item>
     <item
-        jar="C:\Users\Deyvison\AndroidStudioProjects\HackathonAndroidos2016-C4-Scann\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.1\jars\classes.jar"
+        jar="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
         jumboMode="false"
-        revision="23.0.3"
-        sha1="673d77a5bbddd766037f088e775df525c46407f0">
-        <dex dex="C:\Users\Deyvison\AndroidStudioProjects\HackathonAndroidos2016-C4-Scann\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.2.1_8cff7ebed62cdcd6e23ff4b1750513e3ccf747ef.jar" />
+        revision="23.0.1"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_74dc2a4e1157a241774cc6154fb5d235f2e4aa9f.jar" />
     </item>
     <item
-        jar="C:\Users\Deyvison\AndroidStudioProjects\HackathonAndroidos2016-C4-Scann\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.1\jars\libs\internal_impl-23.2.1.jar"
+        jar="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0\jars\classes.jar"
         jumboMode="false"
-        revision="23.0.3"
-        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
-        <dex dex="C:\Users\Deyvison\AndroidStudioProjects\HackathonAndroidos2016-C4-Scann\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.1_322e52dcabed600af7024e8aa3167f147254df3f.jar" />
+        revision="23.0.1"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.0.0_0c769d15cd85e1da7bef5539bffccb13c105bcd7.jar" />
     </item>
     <item
-        jar="C:\Users\Deyvison\AndroidStudioProjects\HackathonAndroidos2016-C4-Scann\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.1\jars\classes.jar"
+        jar="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\exploded-aar\-HackathonAndroidos2016-C4--Scann\SSPLib\unspecified\jars\libs\mimepull-1.9.4.jar"
         jumboMode="false"
-        revision="23.0.3"
-        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
-        <dex dex="C:\Users\Deyvison\AndroidStudioProjects\HackathonAndroidos2016-C4-Scann\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.2.1_f575ceb253d17a4a2fbd4cc4cef76f412d7885e1.jar" />
+        revision="23.0.1"
+        sha1="15799c72da538ad8e4c364ca147a41b03d45367d">
+        <dex dex="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\pre-dexed\debug\mimepull-1.9.4_0780999fd30e2b5bc1c0b2fc1620eebb41f578f6.jar" />
     </item>
     <item
-        jar="C:\Users\Deyvison\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.1\support-annotations-23.2.1.jar"
+        jar="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\exploded-aar\-HackathonAndroidos2016-C4--Scann\SSPLib\unspecified\jars\classes.jar"
         jumboMode="false"
-        revision="23.0.3"
-        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
-        <dex dex="C:\Users\Deyvison\AndroidStudioProjects\HackathonAndroidos2016-C4-Scann\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.1_a387c5a69c34cce04d6ea3de20cf6751283f2fcb.jar" />
+        revision="23.0.1"
+        sha1="a0bd8bb12315a6a553d4e4e4b31bd7d9272261d9">
+        <dex dex="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\pre-dexed\debug\-HackathonAndroidos2016-C4--Scann-SSPLib-unspecified_8a33c34e5c64a8852c036b3a686ee20ad5205f97.jar" />
     </item>
     <item
-        jar="C:\Users\Deyvison\AndroidStudioProjects\HackathonAndroidos2016-C4-Scann\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.1\jars\classes.jar"
+        jar="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\exploded-aar\-HackathonAndroidos2016-C4--Scann\SSPLib\unspecified\jars\libs\guava-19.0-preconditions.jar"
         jumboMode="false"
-        revision="23.0.3"
-        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
-        <dex dex="C:\Users\Deyvison\AndroidStudioProjects\HackathonAndroidos2016-C4-Scann\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.1_b6e7b05f1df2460e31108b3771c6caa9e15a05b6.jar" />
+        revision="23.0.1"
+        sha1="5dc7388590ceddadbbcb4b433c75ef48656d67d3">
+        <dex dex="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\pre-dexed\debug\guava-19.0-preconditions_a37ab0164176e6069f1c27fd0c1f2f6ea111ad88.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.0.0_bb447ebc89284377b391f220ac3d8be27651231d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deyvison\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\24.0.0\2943c74db6d4346ab8c6531adac91fa05c137c40\support-annotations-24.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_64fba5acfe1706475fd5953ad35ea0e903c63626.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\exploded-aar\-HackathonAndroidos2016-C4--Scann\SSPLib\unspecified\jars\libs\jackson-core-asl-1.6.6.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="edee2c379fccfb7a1d48e1eab786764a217dbdfe">
+        <dex dex="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\pre-dexed\debug\jackson-core-asl-1.6.6_d48a8b54284a1691b0e8ef03110603e3e1c6d666.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\exploded-aar\-HackathonAndroidos2016-C4--Scann\SSPLib\unspecified\jars\libs\jackson-mapper-asl-1.6.6.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="cb73889e8e654ba9248678c4dd68721e63ed9954">
+        <dex dex="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\pre-dexed\debug\jackson-mapper-asl-1.6.6_675b6eb4790da0e5b9b8cb8c384e7319869500ba.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\exploded-aar\-HackathonAndroidos2016-C4--Scann\SSPLib\unspecified\jars\libs\joda-time-1.6.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="39bfdc61aa538253b5e916a4796f9860d434c8c7">
+        <dex dex="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\pre-dexed\debug\joda-time-1.6.2_9ccaeae6df1401827818cdf8963f906a3f864088.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\exploded-aar\-HackathonAndroidos2016-C4--Scann\SSPLib\unspecified\jars\libs\signpost-core-1.2.1.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6ba17b2165bdeb0d5dd00f7c54bc85289b18358c">
+        <dex dex="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\pre-dexed\debug\signpost-core-1.2.1.2_bdea4e4df8e54fd0a1dc97c6bcdc6dd2bc26eadf.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.0.0_dd1815e2e6670e6b86c000b6d596636aaf4ff8f1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\exploded-aar\-HackathonAndroidos2016-C4--Scann\SSPLib\unspecified\jars\libs\javax.ws.rs-api-2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ed97a2fa8b04ac9a5e1ea6054b8f33f3a26933d4">
+        <dex dex="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\pre-dexed\debug\javax.ws.rs-api-2.0_684406b96bfafeb12041b65b21cd3b6eca5e6b93.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0_714ab3e344b79936df488d63e75ea8232e1eab57.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.0.0_0836da6c223dfb9f4902d4224b06abef43393277.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\exploded-aar\-HackathonAndroidos2016-C4--Scann\SSPLib\unspecified\jars\libs\SmartUXLibSupport.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="68af3b7f31934fdb59ab5aae82ffc08407f5f47b">
+        <dex dex="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\pre-dexed\debug\SmartUXLibSupport_c794448872d9d1f611722d269e8ce86460625dc5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\exploded-aar\com.android.support\design\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="C:\Users\Deyvison\AndroidStudioProjects\-HackathonAndroidos2016-C4--Scann\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.0.0_ec2c0c259bf1c6719609ea888a22eeaa7e5da1c7.jar" />
     </item>
 
 </items>
