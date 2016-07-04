@@ -33,12 +33,14 @@ public class ScannApplication extends Application {
     }
 
     public void removerFuncao(){
-        this.funcoes.remove(funcoes.size()-1);
+        if(funcoes.size() >= 0) {
+            this.funcoes.remove(funcoes.size() - 1);
+        }
     }
 
     public void removerTudo(){
-        for (String s : funcoes) {
-            this.funcoes.remove(s);
+        for (int i = 0; i < funcoes.size(); i++){
+            funcoes.remove(i);
         }
     }
 

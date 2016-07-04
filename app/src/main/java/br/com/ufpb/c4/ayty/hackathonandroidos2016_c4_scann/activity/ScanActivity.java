@@ -45,6 +45,9 @@ public class ScanActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scan);
+
+        //Toast.makeText(getApplicationContext(), "Entrou Scan Activity !", Toast.LENGTH_LONG).show();
+
         application = (ScannApplication) getApplicationContext();
         mScanObserver = new ScanObserver(new Handler());
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar_scan);
@@ -60,7 +63,7 @@ public class ScanActivity extends AppCompatActivity {
                 mAuthTask.execute();
             }
         });
-        //Toast.makeText(getApplicationContext(), "Entrou Scan Activity", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getApplicationContext(), "Entrou Scan Activity", Toast.LENGTH_LONG).show();
         scan.setVisibility(View.VISIBLE);
         error.setVisibility(View.GONE);
         mAuthTask = new ScanAsyncTask(getApplicationContext(), mScanObserver);
