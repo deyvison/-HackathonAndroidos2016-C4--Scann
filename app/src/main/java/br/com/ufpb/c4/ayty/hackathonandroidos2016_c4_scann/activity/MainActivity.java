@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
                 bundle.putInt("img", R.drawable.ic_printer);
                 bundle.putString("desc", "Imprimir");
                 fragment.setArguments(bundle);
-                container1.removeAllViews();
+                container2.removeAllViews();
                 getSupportFragmentManager().beginTransaction().replace(R.id.container2, fragment).addToBackStack("Printer").commit();
                 if(application.getFuncoes().size() > 0){
                     buttonDelete.setEnabled(true);
@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity {
                 bundle.putInt("img", R.drawable.ic_mail);
                 bundle.putString("desc", "Enviar por e-mail");
                 fragment.setArguments(bundle);
-                container1.removeAllViews();
+                container3.removeAllViews();
                 getSupportFragmentManager().beginTransaction().replace(R.id.container3, fragment).addToBackStack("Mail").commit();
                 if(application.getFuncoes().size() > 0){
                     buttonDelete.setEnabled(true);
