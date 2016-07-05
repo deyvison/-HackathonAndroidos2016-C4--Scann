@@ -1,4 +1,4 @@
-# -HackathonAndroidos2016-C4--Scann
+# HackathonAndroidos2016-C4-Scann
 
 O Scann é um aplicativo Android que escaneia seus documentos e os envia por e-mail de forma simples, rápida e prática!
 No cotidiano de um escritório é comum que as pessoas assinem documentos e repassem estes documentos a outras pessoas. As pessoas costuman enviar documentos por e-mail, pois é algo comum e simples. Todo mundo faz isso!
